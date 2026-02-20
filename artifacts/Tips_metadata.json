@@ -11,6 +11,13 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [],
+				"name": "addTips",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address payable",
@@ -35,29 +42,9 @@
 			},
 			{
 				"inputs": [],
-				"name": "addtips",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "distributeBalance",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getTotalPercent",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -71,6 +58,19 @@
 				"name": "removeWaitress",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewTips",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -95,22 +95,9 @@
 								"type": "uint256"
 							}
 						],
-						"internalType": "struct tips.Waitress[]",
+						"internalType": "struct Tips.Waitress[]",
 						"name": "",
 						"type": "tuple[]"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "viewtips",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -130,7 +117,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tipjar.sol": "tips"
+			"tipjar.sol": "Tips"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -145,11 +132,11 @@
 	},
 	"sources": {
 		"tipjar.sol": {
-			"keccak256": "0x417b638d6b688c130b5f43a0562e54111033a76f7a3ba6e3320e02c921554b82",
+			"keccak256": "0x66ec711fda72cd23ca712bb19ec5c713cb6a55d9f9cd4d721014649f16aac5b1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b093ffafa2bdddc04bef279173ded542b0f1a4d08b20c21a7068912da550ecad",
-				"dweb:/ipfs/QmdEXAh5a2cTz7BCsinYfsfAaCn2xotwzUZdWZa14h2LZo"
+				"bzz-raw://bee8599329711ecc0b850e1a28a0f378a86e1045082fc7bb8dc1ae9fb4f457fd",
+				"dweb:/ipfs/QmeaaGmZf3HWQLnLJrdj9PxMbdxUoDYvW2PMJbmD32U1Eo"
 			]
 		}
 	},
